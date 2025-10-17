@@ -23,9 +23,6 @@ It follows a logical flow that connects data preparation, modeling, and insights
 | ├── `powerco_churn_model.pkl` | Trained machine learning model for churn prediction. |
 | ├── `scaler.pkl` | Scaler object used for feature normalization during preprocessing. |
 | └── `README.md` | Notes describing model details and artifact usage. |
-
----
-
 | **`data/`** | Contains both raw and processed datasets used in the churn analysis. |
 | ├── **`raw/`** | Original unmodified datasets. |
 | │ ├── `client_data.csv` | Client-level dataset including company, energy, gas usage, and churn info. |
@@ -35,29 +32,17 @@ It follows a logical flow that connects data preparation, modeling, and insights
 | │ ├── `PowerCo_analysis.csv` | Cleaned dataset used for descriptive analysis and visualization. |
 | │ ├── `PowerCo_ml.csv` | Processed dataset prepared for machine learning model training. |
 | │ └── `README.md` | Overview of transformation and preprocessing steps. |
-
----
-
 | **`docs/`** | Supporting documentation for the PowerCo project. |
 | ├── `Data Description.pdf` | Complete data dictionary explaining variables and dataset design. |
 | └── `README.md` | Summary of included documents and their purpose. |
-
----
-
 | **`notebook/`** | Jupyter notebook environment used for analysis and exploration. |
 | ├── `PowerCo SME Churn Analysis Project.ipynb` | Full notebook containing exploratory analysis, feature engineering, and model development. |
 | └── `README.md` | Notes on notebook workflow and purpose. |
-
----
-
 | **`scripts/`** | Python scripts supporting app logic, model building, and prediction pipelines. |
 | ├── `app.py` | Main Streamlit app for interactive churn prediction and dashboard visualization. |
 | ├── `model.py` | Script handling model training, evaluation, and persistence. |
 | ├── `PowerCo_SME_Churn_Analysis_Project.py` | Core Python workflow combining data loading, model training, and evaluation. |
 | └── `README.md` | Description of each script and its role in the workflow. |
-
----
-
 | **`visualization/`** | Contains static charts and UI screenshots from the analysis and Streamlit app. |
 | ├── **`charts/`** | Analytical visuals and performance metrics. |
 | │ ├── `Churn Prevalence by Gas Subscription.png` | Comparison of churn rates based on gas service subscription. |
@@ -72,9 +57,6 @@ It follows a logical flow that connects data preparation, modeling, and insights
 | │ ├── `dashboard.png` | Main dashboard displaying churn insights and KPIs. |
 | │ ├── `single customer.png` | Single customer prediction interface. |
 | │ └── `README.md` | Notes describing the screenshots and their context. |
-
----
-
 | **`requirements.txt`** | List of Python dependencies required to run the project and Streamlit app. |
 | **`README.md`** | Main project file summarizing the objectives, methods, and key results. |
 
@@ -86,40 +68,40 @@ A quick guide through the PowerCo Energy & Gas Churn Analysis journey — from r
 The layout is designed for clarity, helping readers navigate data sources, analysis stages, and key business findings with ease.  
 It’s straightforward, transparent, and built to tell the full story behind customer churn.
 
-- [⚡ PowerCo Energy & Gas Churn Analysis](#-powerco-energy--gas-churn-analysis)  
-- [📁 Project Directory Structure — PowerCo Energy & Gas Churn Analysis](#-project-directory-structure--powerco-energy--gas-churn-analysis)  
-- [✴️ Summary](#✴️-summary)  
-- [📊 Project Overview](#-project-overview)  
-- [🎯 Executive Summary – PowerCo SME Churn Analysis](#-executive-summary--powerco-sme-churn-analysis)  
-- [⚙️ Data Preparation & Methodology](#⚙️-data-preparation--methodology)  
-  - [🔧 Data Integration & Cleaning](#🔧-data-integration--cleaning)  
-- [📊 Project Workflow](#-project-workflow)  
-- [📈 Dashboard Previews](#-dashboard-previews)  
-- [📊 Excel Workbook Structure](#-excel-workbook-structure)  
-  - [📄 Download the Full Excel Project](#📄-download-the-full-excel-project)  
-- [📈 Key Findings](#-key-findings)  
-  - [💼 Client Base Health](#💼-client-base-health)  
-  - [📈 Sales Channel Performance](#📈-sales-channel-performance)  
-  - [🔀 Service Mix](#🔀-service-mix)  
-- [🔍 Churn & Tenure Insights](#🔍-churn--tenure-insights)  
-- [💶 Pricing & Margin Analysis](#💶-pricing--margin-analysis)  
-- [🚀 Strategic Recommendations](#🚀-strategic-recommendations)  
-  - [⚡ Short-Term Actions](#⚡-short-term-actions)  
-  - [🏗️ Long-Term Initiatives](#🏗️-long-term-initiatives)  
-- [💼 Business Impact Projection](#💼-business-impact-projection)  
-- [⚡ PowerCo Churn Dashboard — Summary & Visualization Report](#⚡-powerco-churn-dashboard--summary--visualization-report)  
-  - [📊 Visual Charts (Summary)](#📊-visual-charts-summary)  
-  - [📈 Visual Charts (Details)](#📈-visual-charts-details)  
-  - [💡 KPI Summary](#💡-kpi-summary)  
-  - [✴️ Reflection](#✴️-reflection)  
-- [🧠 Tools & Skills Applied](#🧠-tools--skills-applied)  
-- [💡 Lessons Learned](#💡-lessons-learned)  
-- [🔮 Next Steps](#🔮-next-steps)  
-- [🧾 Project Summary](#🧾-project-summary)  
-- [⚙️ Installation](#⚙️-installation)  
-- [✴️ Project Impact](#✴️-project-impact)  
-- [🙋‍♂️ Author](#🙋‍♂️-author)  
-
+- [⚡ PowerCo Energy & Gas Churn Analysis](#powerco-energy--gas-churn-analysis)  
+- [📁 Project Directory Structure — PowerCo Energy & Gas Churn Analysis](#project-directory-structure--powerco-energy--gas-churn-analysis)  
+- [✴️ Summary](#summary)  
+- [📊 Project Overview](#project-overview)  
+- [🎯 Executive Summary – PowerCo SME Churn Analysis](#executive-summary--powerco-sme-churn-analysis)  
+- [⚙️ Data Preparation & Methodology](#data-preparation--methodology)  
+  - [🔧 Data Integration & Cleaning](#data-integration--cleaning)  
+- [📊 Project Workflow](#project-workflow)  
+- [📈 Dashboard Previews](#dashboard-previews)  
+- [📊 Excel Workbook Structure](#excel-workbook-structure)  
+  - [📄 Download the Full Excel Project](#download-the-full-excel-project)  
+- [📈 Key Findings](#key-findings)  
+  - [💼 Client Base Health](#client-base-health)  
+  - [📈 Sales Channel Performance](#sales-channel-performance)  
+  - [🔀 Service Mix](#service-mix)  
+- [🔍 Churn & Tenure Insights](#churn--tenure-insights)  
+- [💶 Pricing & Margin Analysis](#pricing--margin-analysis)  
+- [🚀 Strategic Recommendations](#strategic-recommendations)  
+  - [⚡ Short-Term Actions](#short-term-actions)  
+  - [🏗️ Long-Term Initiatives](#long-term-initiatives)  
+- [💼 Business Impact Projection](#business-impact-projection)  
+- [⚡ PowerCo Churn Dashboard — Summary & Visualization Report](#powerco-churn-dashboard--summary--visualization-report)  
+  - [📊 Visual Charts (Summary)](#visual-charts-summary)  
+  - [📈 Visual Charts (Details)](#visual-charts-details)  
+  - [💡 KPI Summary](#kpi-summary)  
+  - [✴️ Reflection](#reflection)  
+- [🧠 Tools & Skills Applied](#tools--skills-applied)  
+- [💡 Lessons Learned](#lessons-learned)  
+- [🔮 Next Steps](#next-steps)  
+- [🧾 Project Summary](#project-summary)  
+- [⚙️ Installation](#installation)  
+- [✴️ Project Impact](#project-impact)  
+- [🙋‍♂️ Author](#author)
+ 
 
 ---
 
@@ -179,7 +161,7 @@ The analysis is based on two main datasets: **client_data.csv** and **price_data
 
 Two datasets were used in this analysis:
 
-> [📄 View Raw Dataset (CSV)](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/powerco_churn_analysis/docs/data_description.pdf)
+> - **[📄 View Raw Dataset (CSV)](https://github.com/rotimi2020/PowerCo-Churn-Analysis-Python/tree/main/data/raw)**
 
 ### 🧾 client_data.csv
 
@@ -217,7 +199,7 @@ Some fields contain hashed text strings to preserve client privacy while retaini
 
 - **Data Description.pdf** — Provides clear definitions and descriptions of all variables used in both the client and price datasets, ensuring consistent understanding throughout the analysis.  
 
-> [📄 View Data Dictionary (PDF)](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/powerco_churn_analysis/docs/data_description.pdf)
+> - **[📄 View Data Dictionary (PDF)](https://github.com/rotimi2020/PowerCo-Churn-Analysis-Python/blob/main/docs/Data%20Description.pdf)**
 
 
 ---
@@ -258,14 +240,8 @@ Some fields contain hashed text strings to preserve client privacy while retaini
 
 
 
-> [📊 View processed data (CSV)](https://github.com/rotimi2020/Data-Analyst-Portfolio/tree/main/powerco_churn_analysis)
+> - **[📊 View Processed Data (CSV Files : Analysis & Machine Learning)](https://github.com/rotimi2020/PowerCo-Churn-Analysis-Python/tree/main/data/processed)**
 
----
-## 📈 Screenshot Previews  
-
-| Churn Dashboard | Pivot Table | Summary Insights |
-|------------------|-------------|------------------|
-| ![Churn Dashboard](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/powerco_churn_analysis/report_screenshots/powerco_dashboard.png) | ![Pivot Table](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/powerco_churn_analysis/report_screenshots/powerco_pivot.png) | ![Summary Insights](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/powerco_churn_analysis/report_screenshots/powerco_summary.png) |
 
 ---
 
@@ -289,7 +265,8 @@ Both **Random Forest** were explored for robust classification results.
 - Aggregated pricing metrics at the client level  
 
 
-> [📄 View Processed Dataset (CSV)](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/powerco_churn_analysis/docs/data_description.pdf)
+> - **[📘 View Python Jupyter Notebook (IPYNB)](https://github.com/rotimi2020/PowerCo-Churn-Analysis-Python/blob/main/notebook/PowerCo%20SME%20Churn%20Analysis%20Project.ipynb)**
+
 
 ---
 
@@ -312,7 +289,7 @@ plt.show()
 
 ```
 
-![Churn Prevalence by Gas Subscription](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/powerco_churn_analysis/report_screenshots/powerco_dashboard.png)
+![Churn Prevalence by Gas Subscription](https://github.com/rotimi2020/PowerCo-Churn-Analysis-Python/blob/main/visualization/charts/Churn%20Prevalence%20by%20Gas%20Subscription.png)
 
 ---
 
@@ -332,7 +309,7 @@ plt.show()
 
 ```
 
-![Churn Prevalence by Tenure](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/powerco_churn_analysis/report_screenshots/powerco_dashboard.png)
+![Churn Prevalence by Tenure](https://github.com/rotimi2020/PowerCo-Churn-Analysis-Python/blob/main/visualization/charts/Churn%20Prevalence%20By%20Tenure.png)
 
 ---
 
@@ -354,7 +331,7 @@ plt.show()
 
 ```
 
-![Feature Correlation Matrix](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/powerco_churn_analysis/report_screenshots/powerco_dashboard.png)
+![Feature Correlation Matrix](https://github.com/rotimi2020/PowerCo-Churn-Analysis-Python/blob/main/visualization/charts/Feature%20Correlation%20Matrix.png)
 
 ---
 
@@ -374,7 +351,7 @@ plt.show()
 ```
 
 
-![Net Margin Distribution by Churn Status](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/powerco_churn_analysis/report_screenshots/powerco_dashboard.png)
+![Net Margin Distribution by Churn Status](https://github.com/rotimi2020/PowerCo-Churn-Analysis-Python/blob/main/visualization/charts/Net%20Margin%20Distribution%20by%20Churn%20Status.png)
 
 ---
 
@@ -396,7 +373,7 @@ plt.show()
 ```
 
 
-![recision-Recall Curve](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/powerco_churn_analysis/report_screenshots/powerco_dashboard.png)
+![recision-Recall Curve](https://github.com/rotimi2020/PowerCo-Churn-Analysis-Python/blob/main/visualization/charts/Precision-Recall%20Curve.png)
 
 ---
 
@@ -417,12 +394,12 @@ plt.show()
 
 ```
 
-![Subscribed_Power_Distribution](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/powerco_churn_analysis/report_screenshots/powerco_dashboard.png)
+![Subscribed_Power_Distribution](https://github.com/rotimi2020/PowerCo-Churn-Analysis-Python/blob/main/visualization/charts/Subscribed_Power_Distribution.png)
 
 ---
 
 📁 **Download all visualization charts here:**  
-[🔗 Download Charts](https://github.com/rotimi2020/Data-Analyst-Portfolio/tree/main/powerco_churn_analysis/visuals)
+[🔗 Download Charts](https://github.com/rotimi2020/PowerCo-Churn-Analysis-Python/tree/main/visualization/charts)
 
 
 ---
@@ -626,18 +603,32 @@ The app combines both **visual insights** and **machine learning predictions**, 
   
 ---
 
+### 🐍 Python Scripts  
+Core project scripts for analysis, modeling, and Streamlit app deployment.
+
+- **app.py** — Main Streamlit application for deploying and running the interactive churn analysis dashboard.  
+- **model.py** — Handles model loading, predictions, and integration between the trained model and the Streamlit interface.  
+- **PowerCo_SME_Churn_Analysis_Project.py** — Python version of the Jupyter notebook, containing the complete analysis workflow in script form.  
+
+- **[🧠 Download Python Scripts (.py)](https://github.com/rotimi2020/PowerCo-Churn-Analysis-Python/tree/main/scripts)**
+  
+---
 ### 📸 Streamlit Dashboard Preview 
 
-| Churn Dashboard | Pivot Table | Summary Insights |
+| Churn Dashboard | Batch Prediction | Single Customer |
 |------------------|-------------|------------------|
-| ![Churn Dashboard](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/powerco_churn_analysis/report_screenshots/powerco_dashboard.png) | ![Pivot Table](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/powerco_churn_analysis/report_screenshots/powerco_pivot.png) | ![Summary Insights](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/powerco_churn_analysis/report_screenshots/powerco_summary.png) |
+| ![Churn Dashboard](https://github.com/rotimi2020/PowerCo-Churn-Analysis-Python/blob/main/visualization/screenshots/dashboard.PNG) | ![Batch Prediction](https://github.com/rotimi2020/PowerCo-Churn-Analysis-Python/blob/main/visualization/screenshots/batch%20prediction.PNG) | ![Single Customer](https://github.com/rotimi2020/PowerCo-Churn-Analysis-Python/blob/main/visualization/screenshots/single%20customer.PNG) |
 
 ### 🧩 File Reference
 - `app.py` — Streamlit application script  
 - `model.pkl` — Serialized Random Forest model used for live churn predictions  
 - `Visualizations/` — Contains screenshots and static chart exports
+- **[🧠 Download Model Files (PKL)](https://huggingface.co/rotimi2020/PowerCo-Churn-Model/tree/main/artifacts)**  
+  The trained model file **`powerco_churn_model.pkl`** (≈227 MB) is too large for GitHub and is hosted on **Hugging Face**.  
+  This directory also includes **`scaler.pkl`** used during model preprocessing.
 
 > _The Streamlit dashboard turns the analysis into a hands-on tool — bridging the gap between data science and business decisions.
+
 
 ---
 
@@ -654,8 +645,8 @@ To set up the project environment on your local machine, follow these steps:
 ### ✅ Step : Clone the Repository
 
 ```bash
-git clone https://github.com/rotimi2020/Data-Analyst-Portfolio.git
-cd Data-Analyst-Portfolio/Diabetes_Analysis
+git clone https://github.com/rotimi2020/PowerCo-Churn-Analysis-Python.git
+cd PowerCo-Churn-Analysis-Python
 
 ```
 
@@ -678,5 +669,6 @@ The clean, documented structure ensures technical work remains accessible and ac
 📁 Project GitHub: [github.com/rotimi2020/Data-Analyst-Portfolio](https://github.com/rotimi2020/Data-Analyst-Portfolio)  
 
 ---
+
 
 *Thank you for reviewing my work. I welcome opportunities to discuss how I can bring this same analytical approach and business mindset to your team.*
