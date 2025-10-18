@@ -83,24 +83,25 @@ It’s straightforward, transparent, and built to tell the full story behind cus
   - [💼 Client Base Health](#client-base-health)  
   - [📈 Sales Channel Performance](#sales-channel-performance)  
   - [🔀 Service Mix](#service-mix)  
-- [🔍 Churn & Tenure Insights](#churn--tenure-insights)  
-- [💶 Pricing & Margin Analysis](#pricing--margin-analysis)  
+- [🔍 Churn & Tenure Insights](#churn-and-tenure-insights)  
+- [💶 Pricing & Margin Analysis](#pricing-and-margin-analysis)  
 - [🚀 Strategic Recommendations](#strategic-recommendations)  
   - [⚡ Short-Term Actions](#short-term-actions)  
   - [🏗️ Long-Term Initiatives](#long-term-initiatives)  
 - [💼 Business Impact Projection](#business-impact-projection)  
-- [⚡ PowerCo Churn Dashboard — Summary & Visualization Report](#powerco-churn-dashboard--summary--visualization-report)  
+- [⚡ PowerCo Churn Dashboard — Summary & Visualization Report](#powerco-churn-dashboard--summary-and-visualization-report)  
   - [📊 Visual Charts (Summary)](#visual-charts-summary)  
   - [📈 Visual Charts (Details)](#visual-charts-details)  
   - [💡 KPI Summary](#kpi-summary)  
   - [✴️ Reflection](#reflection)  
-- [🧠 Tools & Skills Applied](#tools--skills-applied)  
+- [🧠 Tools & Skills Applied](#tools-and-skills-applied)  
 - [💡 Lessons Learned](#lessons-learned)  
 - [🔮 Next Steps](#next-steps)  
 - [🧾 Project Summary](#project-summary)  
 - [⚙️ Installation](#installation)  
 - [✴️ Project Impact](#project-impact)  
 - [🙋‍♂️ Author](#author)
+
  
 
 ---
@@ -672,3 +673,4 @@ The clean, documented structure ensures technical work remains accessible and ac
 
 
 *Thank you for reviewing my work. I welcome opportunities to discuss how I can bring this same analytical approach and business mindset to your team.*
+
