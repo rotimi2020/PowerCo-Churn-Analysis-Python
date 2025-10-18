@@ -661,14 +661,17 @@ The clean, documented structure ensures technical work remains accessible and ac
 <h2 id="author"> 🙋‍♂️ Author </h2>
 
 **Rotimi Sheriff Omosewo**  
-📧 Email: [omoseworotimi@gmail.com](mailto:omoseworotimi@gmail.com)  
+
 📞 Contact: +234 903 441 1444  
+🌐 Portfolio: [rotimi2020.github.io](https://rotimi2020.github.io)  
+📧 Email: [omoseworotimi@gmail.com](mailto:omoseworotimi@gmail.com)  
 🔗 LinkedIn: [linkedin.com/in/rotimi-sheriff-omosewo-939a806b](https://www.linkedin.com/in/rotimi-sheriff-omosewo-939a806b)  
-📁 Project GitHub: [github.com/rotimi2020/Data-Analyst-Portfolio](https://github.com/rotimi2020/Data-Analyst-Portfolio)  
+📁 GitHub: [github.com/rotimi2020/Data-Analyst-Portfolio](https://github.com/rotimi2020/Data-Analyst-Portfolio)
 
 ---
 
 
 *Thank you for reviewing my work. I welcome opportunities to discuss how I can bring this same analytical approach and business mindset to your team.*
+
 
 
